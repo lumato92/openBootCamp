@@ -4,6 +4,6 @@ lista = set(input("Ingrese lista de paises separados por coma:").split(","))
 
 #Imprimo en consola los elementos del set de manera ordenada alfabeticamente
 
-print(sorted(lista))
+print(",".join(list(sorted(lista))))
 
 
